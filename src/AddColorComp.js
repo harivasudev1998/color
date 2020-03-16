@@ -50,6 +50,7 @@ class AddColorComp extends React.Component {
     }
 
     render() { 
+        // const disp= this.state.submit;
         let display;
         
         if(this.state.submit===1){
@@ -87,9 +88,12 @@ class AddColorComp extends React.Component {
 
   
         
+                {display}
                 
             </div>
          );
+
+         
         
     }
 }
